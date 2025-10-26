@@ -14,13 +14,12 @@ body {
   font-weight: 500;
   color: #000;
   letter-spacing: 0;
-  height: 60px;
+  text-transform: uppercase;
 }
 
 .nav {
   margin: 0;
   padding: 0;
-  align-items: center;
 }
 
 .nav__list {
@@ -32,10 +31,6 @@ body {
 
 .nav__item:not(:last-child) {
   margin-right: 20px;
-}
-
-a.active {
-  color: #00acdc;
 }
 
 .nav__link {
@@ -52,10 +47,6 @@ a.active {
   color: #00acdc;
 }
 
-.nav__link.is-active {
-  color: #00acdc;
-}
-
 .nav__link.is-active::after {
   content: '';
   position: absolute;
@@ -67,9 +58,8 @@ a.active {
   border-radius: 8px;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
+.is-active {
+  color: #00acdc;
 }
 
 .link-logo {
